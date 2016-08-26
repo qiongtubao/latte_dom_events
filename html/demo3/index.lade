@@ -1,0 +1,6 @@
+import<../head.lade>
+		div (controller:"demo")
+			div [style:"height:1000px;width:1000px;background-color:#00ffff;" contenteditable:"true"] (keys:"keys") 
+				p "a"
+
+	script [src:"./index.js"]

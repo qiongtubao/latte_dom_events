@@ -1,0 +1,10 @@
+import<../head.lade>
+		div (controller:"demo")
+			div [style:"height:100px;width:100px;background-color:#00ffff;"] (drop:"dropA" dragstart:"dragAstart" dragend:"dragAnd")  
+				h3 "helo"
+			div [style:"height:100px;width:100px;background-color:#ff00ff;"] (drop:"dropB")  
+			
+
+
+
+	script [src:"./index.js"]

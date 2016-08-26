@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta>
+		</meta>
+		<meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+		</meta>
+		<script src='../latte_dom.js'>
+		</script>
+		<script src='../latte_dom_events.js'>
+		</script>
+	</head>
+	<body>
+		<div latte-controller='demo'>
+			<div style='height:100px;width:100px;background-color:#00ffff;' latte-drop='dropA'
+			latte-dragstart='dragAstart' latte-dragend='dragAnd'>
+				<h3>
+					helo
+				</h3>
+			</div>
+			<div style='height:100px;width:100px;background-color:#ff00ff;' latte-drop='dropB'>
+			</div>
+		</div>
+	</body>
+	<script src='./index.js'>
+	</script>
+
+</html>
